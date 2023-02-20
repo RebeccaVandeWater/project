@@ -3,7 +3,7 @@ function trySwitch(banana){
 
     switch(banana) {
         case "Jared":
-            console.log("Jared you suck at teaching!")
+            console.log("Hi Jared!")
             break;
         case "Becca":
             console.log("Hi Becca!")
@@ -28,5 +28,33 @@ function tryStatement(expression){
     }
     else{
         console.log("Get outta here scum")
+    }
+}
+
+function tryOdd(number){
+
+    let remainder = number % 2
+
+    console.log("You have given me the number ", number)
+
+    if (remainder === 0){
+        console.log("The original number is even")
+    }
+    else{
+        console.log("The original number is odd")
+    }
+
+
+    console.log("Now I'm going to add 1")
+
+    let sum = number+1
+
+    console.log("The new number is ", sum)
+
+    if (sum % 2 === 0){
+        console.log("The new number is even")
+    }
+    else{
+        console.log("The new number is odd")
     }
 }
